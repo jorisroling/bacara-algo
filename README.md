@@ -1,17 +1,17 @@
 # Bacara Algo
 
-This is a short demo of an two *algo's* (HAPAX speak for Generators). One if patterns (actually ACID Bassline patterns), and one for drums.
+This is a short demo of an two *algo's* (HAPAX speak for Generators). One for patterns (actually ACID Bassline patterns), and one for drums.
 
 To run it, please fist install NodeJS ([here](https://nodejs.org/en/)).
 
-	cd bacara-algo  
+	cd bacara-algo
 	npm install
 
 For Patterns, run:
 
 	MIDI=0 TEMPERATURE=1.0 VELOCITY=100 STEPS=16 node pattern.js
 
-For Drums, run:  
+For Drums, run:
 
 	MIDI=0 STEPS=16 node drums.js
 
