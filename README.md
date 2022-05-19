@@ -39,7 +39,7 @@ For Drums, run:
 
 	MIDI=0 STEPS=16 node drums.js
 
-This should result in something like this:
+This should result in something like this (an array for **BD**, **SD**, **LT**, **MT**, **HT**, **RS**, **HC**, **CB**, **CY**, **OH**, **CH**):
 
     [
       [
@@ -104,7 +104,6 @@ This should result in something like this:
       ]
     ]
 
-(The above is an array for **BD**, **SD**, **LT**, **MT**, **HT**, **RS**, **HC**, **CB**, **CY**, **OH**, **CH**)
 
 ## The Parameters
 
