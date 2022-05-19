@@ -229,6 +229,6 @@ const drums =  generateDrums(steps, style, -1, {} )
 console.log(util.inspect(drums, {showHidden: false, depth: null, colors: true}))
 
 if (writeMidiFiles) {
-  const drumMidi = midiFromPatterns(16, drums)
+  const drumMidi = midiFromPatterns(steps, drums)
   console.log(util.inspect(drumMidi, {showHidden: false, depth: null, colors: true}))
 }
