@@ -17,7 +17,7 @@ For Drums, run:
 
 
 
-##The Parameters
+## The Parameters
 
 **MIDI**:   If set to '1', will write the generated notes to a MIDI file  (in either the 'patterns' or 'drums' folder insode 'midi' folder)
         If set to '0', it will not write it
