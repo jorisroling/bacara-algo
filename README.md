@@ -1,4 +1,4 @@
-# bacara-algo
+# Bacara Algo
 
 This is a short demo of an two *algo's* (HAPAX speak for Generators). One if patterns (actually ACID Bassline patterns), and one for drums.
 
@@ -17,18 +17,18 @@ For Drums, run:
 
 
 
-The Parameters are as follows:
+##The Parameters
 
-MIDI:   If set to '1', will write the generated notes to a MIDI file  (in either the 'patterns' or 'drums' folder insode 'midi' folder)
+**MIDI**:   If set to '1', will write the generated notes to a MIDI file  (in either the 'patterns' or 'drums' folder insode 'midi' folder)
         If set to '0', it will not write it
         (default 0)
 
-TEMPERATURE: Influences the generated pattern (value between 1.0 and 5.0) (default 1.0)
+**TEMPERATURE**: Influences the generated pattern (value between 1.0 and 5.0) (default 1.0)
 
-VELOCITY:   The Velocity for 'Normal' (non-accented) notes, only needed when writing MIDI files (default 100)
+**VELOCITY**:   The Velocity for 'Normal' (non-accented) notes, only needed when writing MIDI files (default 100)
 
-STEPS:  Positive Integer, determines the number of steps (default 16)
+**STEPS**:  Positive Integer, determines the number of steps (default 16)
 
-STYLE: 'all', 'house' or 'breaks' (default 'all')
+**STYLE**: 'all', 'house' or 'breaks' (default 'all')
 
 ![Example Clips](images/Screenshot.png)
