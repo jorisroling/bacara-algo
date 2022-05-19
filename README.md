@@ -28,3 +28,5 @@ VELOCITY:   The Velocity for 'Normal' (non-accented) notes, only needed when wri
 STEPS:  Positive Integer, determines the number of steps (default 16)
 
 STYLE: 'all', 'house' or 'breaks' (default 'all')
+
+![Example Clips](images/Screenshot.png)
