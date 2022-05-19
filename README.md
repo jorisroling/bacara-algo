@@ -4,14 +4,16 @@ This is a short demo of an two *algo's* (HAPAX speak for Generators). One if pat
 
 To run it, please fist install NodeJS ([here](https://nodejs.org/en/)).
 
-`cd bacara-algo  
-npm install  `
+	cd bacara-algo  
+	npm install
 
-For Patterns, run:  
-`MIDI=0 TEMPERATURE=1.0 VELOCITY=100 STEPS=16 node pattern.js`
+For Patterns, run:
+
+	MIDI=0 TEMPERATURE=1.0 VELOCITY=100 STEPS=16 node pattern.js
 
 For Drums, run:  
-`MIDI=0 STEPS=16 node drums.js`
+
+	MIDI=0 STEPS=16 node drums.js
 
 
 
