@@ -1,0 +1,26 @@
+{
+  "name": "bacara-algo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorisroling/bacara-algo.git"
+  },
+  "author": "Joris Röling",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jorisroling/bacara-algo/issues"
+  },
+  "homepage": "https://github.com/jorisroling/bacara-algo#readme",
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "chalk": "^5.0.1",
+    "cli-table3": "^0.6.2",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21"
+  }
+}
