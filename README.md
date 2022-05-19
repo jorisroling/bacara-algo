@@ -26,3 +26,5 @@ TEMPERATURE: Influences the generated pattern (value between 1.0 and 5.0) (defau
 VELOCITY:   The Velocity for 'Normal' (non-accented) notes, only needed when writing MIDI files (default 100)
 
 STEPS:  Positive Integer, determines the number of steps (default 16)
+
+STYLE: 'all', 'house' or 'breaks' (default 'all')

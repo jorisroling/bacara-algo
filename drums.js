@@ -14,6 +14,7 @@ let globalPrevious
 
 const writeMidiFiles = process.env.MIDI ? !!parseInt(process.env.MIDI) : false
 const steps = process.env.STEPS ? parseInt(process.env.STEPS) : 16
+const style = process.env.STYLE ? process.env.STYLE : 'all'
 
 const VELOCITY_LO = 80
 const VELOCITY_HI = 112
@@ -224,7 +225,7 @@ function midiFromPatterns(steps, patterns) {
 }
 
 
-const drums =  generateDrums(steps, 'house', -1, {} )
+const drums =  generateDrums(steps, style, -1, {} )
 console.log(util.inspect(drums, {showHidden: false, depth: null, colors: true}))
 
 if (writeMidiFiles) {
