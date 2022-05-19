@@ -104,6 +104,7 @@ This should result in something like this:
       ]
     ]
 
+(The above is an array for **BD**, **SD**, **LT**, **MT**, **HT**, **RS**, **HC**, **CB**, **CY**, **OH**, **CH**)
 
 ## The Parameters
 
