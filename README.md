@@ -107,7 +107,7 @@ This should result in something like this (an array for **BD**, **SD**, **LT**, 
 
 ## The Parameters
 
-**MIDI**:   If set to '1', will write the generated notes to a MIDI file  (in either the 'patterns' or 'drums' folder insode 'midi' folder)
+**MIDI**:   If set to '1', will write the generated notes to a MIDI file  (in either the 'patterns' or 'drums' folder inside 'midi' folder)
         If set to '0', it will not write it
         (default 0)
 
